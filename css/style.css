@@ -119,19 +119,23 @@ li {
 
 /* call bg css part start  */
 .call_bg_end_section {
-  background-image: url(../images/watch.png); 
+  background-image: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%) , url(../images/watch.png) ;
   background-repeat: no-repeat;
   background-position: center;
   border-radius: 8px;
-  padding: 30px;
-  
+  width: 1140px;
+  height: 300px;
+  margin: 1px 190px;
+
   
 }
+
 .call_bg_end_section h4{
    font-weight: 700;
    font-size: 40px;
    line-height: 47px;
    color: #FFFFFF;
+   
 }
 .call_bg_end_section button {
    font-weight: 600;
@@ -143,7 +147,7 @@ li {
    margin-top: 10px;
 }
 .call_div{
-   padding-left: 220px;
+   padding: 80px 30px;
 }
 /* call bg css part end */
 /* footer css part start */
