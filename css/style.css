@@ -1,0 +1,215 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Work Sans';
+}
+li {
+    list-style: none;
+}
+/* cmn css end */
+
+/* header css part start  */
+.header_section{
+    background-image: url(../images/banner/banner3.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 140px;
+
+}
+.right_side_text{
+    width: 1140px;
+    text-align: right;
+}
+.right_side_text h1{
+    font-weight: 700;
+    font-size: 65px;
+    line-height: 76px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.right_side_text p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 24px;
+}
+.right_side_text button{
+    font-weight: 600;
+    font-size: 15px;
+    color: #005FAC;
+    padding: 12px;
+    border-radius: 5px;
+}
+/* header css part end  */
+/* profile part start */
+.profile {
+    display: flex;
+    width: 1140px;
+    margin-top: 20px;
+}
+.profile_image_part{
+    padding: 100px;
+}
+.profile_text_part{
+    margin: 250px 0 10px 10px;
+}
+.profile_text_part h3{
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   color: #151414;
+   margin-bottom: 25px;
+}
+.profile_text_part p{
+   margin-bottom: 20px;
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #444343;
+}
+.profile_text_part ul li {
+   font-weight: 400;
+   font-size: 16px;
+   color: #444343;
+   margin-bottom: 15px;
+}
+.profile_text_part ul li i{
+    color: #005FAC;
+    margin-right: 2px;
+}
+/* profile part end  */
+/* My Plans css part start  */
+.My_Plans_section h3 {
+   text-align: center;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   color: #151414; 
+   margin-bottom: 40px; 
+}
+.Plans_item{
+    display: flex;
+    justify-content: center;
+    gap: 120px; 
+    margin-bottom: 80px;
+}
+.Plans_item img {
+    align-items: center;
+    padding: 20px 40px;
+}
+.Plans_item h4{
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 35px;
+   text-align: center;
+   color: #151414;
+}
+.Plans_item p{
+   font-weight: 500;
+   font-size: 15px;
+   line-height: 29px;
+   text-align: center;
+   color: #737272;
+}
+/* My Plans css end  */
+
+/* call bg css part start  */
+.call_bg_end_section {
+  background-image: url(../images/watch.png); 
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 8px;
+  padding: 30px;
+  
+  
+}
+.call_bg_end_section h4{
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 47px;
+   color: #FFFFFF;
+}
+.call_bg_end_section button {
+   font-weight: 600;
+   font-size: 15px;
+   line-height: 23px;
+   color: #005FAC;
+   padding: 10px;
+   border-radius: 5px;
+   margin-top: 10px;
+}
+.call_div{
+   padding-left: 220px;
+}
+/* call bg css part end */
+/* footer css part start */
+.footer_section{
+    margin-top: 100px;
+    background-color: #151414; 
+    display: flex;
+    justify-content: space-between;
+ }
+ .footer_section_left{
+    padding: 50px 190px ;
+ }
+ .footer_section h3{
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 53px;
+   color: #F8F8F8;
+ }
+ .footer_section p{
+   font-weight: 400;
+   font-size: 14px;
+   line-height: 26px;
+   color: #FFFFFF;
+   margin: 10px 0;
+
+ }
+ .footer_section h5{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FFFFFF;
+   margin: 10px ;
+ }
+ .footer_section img {
+    padding: 10px;
+ }
+ .footer_section_right {
+    padding: 80px 270px;
+ }
+ .footer_section_right h4{
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 29px;
+    color: #FFFFFF;
+    padding: 20px 0 ;
+ }
+ .footer_section_right input ::placeholder
+{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #F3F3F3;
+}
+.footer_section_right input {
+    padding: 10px 25px;
+} 
+.footer_section_right button{
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 24px;
+    color: #FFFFFF;
+    padding: 8px;
+    background: #005FAC;
+    border-radius: 5px;
+    border: 0;
+    margin: 20px 0;
+}
+
+/* footer css part  end  */
