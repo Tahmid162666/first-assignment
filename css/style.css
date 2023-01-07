@@ -16,8 +16,7 @@ li {
     background-image: url(../images/banner/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
-    padding: 140px;
-
+    padding: 150px;
 }
 .right_side_text{
     width: 1140px;
@@ -126,16 +125,12 @@ li {
   width: 1140px;
   height: 300px;
   margin: 1px 190px;
-
-  
 }
-
 .call_bg_end_section h4{
    font-weight: 700;
    font-size: 40px;
    line-height: 47px;
    color: #FFFFFF;
-   
 }
 .call_bg_end_section button {
    font-weight: 600;
@@ -172,17 +167,16 @@ li {
    line-height: 26px;
    color: #FFFFFF;
    margin: 10px 0;
-
  }
  .footer_section h5{
    font-weight: 400;
    font-size: 16px;
    line-height: 26px;
    color: #FFFFFF;
-   margin: 10px ;
+   margin:  10px 0 ;
  }
  .footer_section img {
-    padding: 10px;
+    padding: 10px 10px ;
  }
  .footer_section_right {
     padding: 80px 270px;
